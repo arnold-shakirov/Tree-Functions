@@ -1,12 +1,18 @@
-# Tree functions
+# Tree Data Structure Project
 
 ## Overview
-This C++ project contains a program implemented in the `main.cpp` file, designed for executing specific computational tasks efficiently. The program processes input, runs algorithms, and outputs results based on defined logic. The code is structured for flexibility, allowing easy modifications or extensions.
+This project implements a tree data structure in C++. The program provides functionality to create, manage, and interact with a tree, including insertion, traversal, and other operations. The main logic is handled in the `main1.cpp` file, while the `tree.cpp` and `tree.h` files manage the tree structure and related operations.
 
 ## Features
-- **Efficient Computation**: Handles complex calculations and processing tasks.
-- **Modular Design**: Organized in a way that makes the program easily extendable and maintainable.
-- **Custom Input/Output**: Designed to handle different types of input and provide relevant output.
+- **Tree Data Structure**: Implements a tree data structure for organizing and storing data.
+- **Insertion**: Supports insertion of nodes into the tree.
+- **Traversal**: Allows for traversal of the tree using standard methods (in-order, pre-order, post-order).
+- **Modular Design**: The code is split into separate files (`tree.h` for declarations and `tree.cpp` for implementation) for easy maintenance and extension.
+
+## Class Overview
+- **`tree.h`**: Header file that contains the declarations for the tree class and its member functions.
+- **`tree.cpp`**: Implementation file that contains the logic for the tree operations (e.g., insertion, traversal).
+- **`main1.cpp`**: The entry point for the program, where the tree is instantiated and various operations are performed.
 
 ## How to Compile and Run
 
@@ -16,24 +22,34 @@ This C++ project contains a program implemented in the `main.cpp` file, designed
     ```
 
 2. Navigate to the project directory:
+    
+
+3. Compile the C++ files:
     ```bash
-    cd cpp-project
+    g++ -o main main1.cpp tree.cpp
     ```
 
-3. Compile the C++ file using `g++` or another C++ compiler:
-    ```bash
-    g++ -o main main.cpp
-    ```
-
-4. Run the compiled program:
+4. Run the program:
     ```bash
     ./main
     ```
 
 ## Requirements
-- **C++ Compiler**: Make sure you have a C++ compiler like `g++` installed on your system.
+- **C++ Compiler**: Ensure you have a C++ compiler such as `g++` installed on your system.
 - **C++17** or higher recommended.
-- 
+
+## Installation
+1. Clone or download the repository.
+2. Compile the C++ files using `g++` or any other standard C++ compiler:
+    ```bash
+    g++ -o main main1.cpp tree.cpp
+    ```
+
+3. Run the program by executing:
+    ```bash
+    ./main
+    ```
+
 ## Contact
 
 For any questions or suggestions, feel free to reach out to me at [ashakirov@stetson.edu].
